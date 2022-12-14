@@ -19,6 +19,7 @@ string destCity(vector<vector<string>>& paths) {
             return paths[i][1];
         }
     }
+    
     return paths[0][1];   
 }
 
